@@ -2,7 +2,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img{
+img {
     float:left;
     padding: 8px;
+}
+
+div {
+    width: 900px;
 }
