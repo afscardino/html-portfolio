@@ -1,5 +1,30 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffaed; 
+}
+
+h1, h2 {
+    color: #8069b6
+}
+
+h3 {
+    color: #FFBF61
+}
+
+a {
+    color: #FFE6A5;
+    font-weight: bold;
+}
+
+.menu {
+    color: #8069b6;
+}
+
+.blurb {
+    padding: 10px;
+    border-radius: .25cm;
+    color: #4a3f64;
+    background-color: #8ABFA3
 }
 
 img {
