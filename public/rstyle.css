@@ -4,16 +4,22 @@ body {
 }
 
 .navbar {
-    background-color: #293858;
+    background-color: #605678;
+    border-radius: .25cm;
+}
+
+.navbar-toggler-icon {
+    background-color: #FFBF61;
+    border-radius: 15%;
 }
 
 .lin {
-    color: #F7BC13;
+    color: #FFBF61;
 }
 
 .dropdown-menu{
-    background-color: #293858;
-    color:#F7BC13
+    background-color: #605678;
+    color:#FFBF61
 }
 
 .poppins-thin {
@@ -76,4 +82,32 @@ font-weight: 700;
 font-style: italic;
 }
 
+.custom-link:hover {
+    color: #F2F1D3; 
+}
+
+.cus-drop:focus,
+.cus-drop.active,
+.cus-drop:hover{color: #F2F1D3};
+.cus-drop.show {
+    background-color:#605678;
+    color: #F2F1D3;
+}
+
+.res-heads {
+    color:#605678;
+    padding-top: 1%;
+    padding-bottom: .5%;
+}
+
+.blurb {
+    padding: 1%;
+    border-radius: .25cm;
+    color: #4a3f64;
+    background-color: #abdbc2;
+}
+
+.blin {
+    color: #4a3f64;
+}
   

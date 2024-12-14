@@ -4,6 +4,7 @@ body {
 }
 
 h1, h2 {
+    padding-top: .25%;
     color: #8069b6
 }
 
@@ -12,22 +13,118 @@ h3 {
 }
 
 a {
-    color: #FFE6A5;
-    font-weight: bold;
-}
-
-.menu {
     color: #8069b6;
+    font-weight: bold;
 }
 
 .blurb {
     padding: 10px;
     border-radius: .25cm;
     color: #4a3f64;
-    background-color: #8ABFA3
+    background-color: #abdbc2
 }
 
 img {
     float:left;
     padding: 8px;
+}
+
+body {
+    font-family: "Poppins", Helvetica, sans-serif;
+    background-color: #F2F1D3; 
+}
+
+.navbar {
+    background-color: #605678;
+    border-radius: .25cm;
+}
+
+.navbar-toggler-icon {
+    background-color: #FFBF61;
+    border-radius: 15%;
+}
+
+.lin {
+    color: #FFBF61;
+}
+
+.dropdown-menu{
+    background-color: #605678;
+    color:#FFBF61
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.poppins-thin-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+font-style: italic;
+}
+
+.poppins-light-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.poppins-regular-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.poppins-bold-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.custom-link:hover {
+    color: #F2F1D3; 
+}
+
+.cus-drop:focus,
+.cus-drop.active,
+.cus-drop:hover{color: #F2F1D3};
+.cus-drop.show {
+    background-color:#605678;
+    color: #F2F1D3;
+}
+
+.blin {
+    color: #4a3f64;
 }
