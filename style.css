@@ -3,12 +3,8 @@ body {
     background-color: #fffaed; 
 }
 
-.full {
-    flex-wrap: wrap;
-}
-
 h1, h2 {
-    color: #8069b6;
+    color: #8069b6
 }
 
 h3 {
