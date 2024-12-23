@@ -13,8 +13,12 @@ h3 {
 }
 
 a {
-    color: #8069b6;
+    color: #4a3f64;
     font-weight: bold;
+}
+
+a:hover {
+    color: #9671ec;
 }
 
 .blurb {
@@ -123,8 +127,4 @@ font-style: italic;
 .cus-drop.show {
     background-color:#605678;
     color: #F2F1D3;
-}
-
-.blin {
-    color: #4a3f64;
 }
