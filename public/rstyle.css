@@ -95,6 +95,10 @@ font-style: italic;
     color: #F2F1D3;
 }
 
+.res-top {
+    padding-top: 2%;
+}
+
 .res-heads {
     color:#4a3f64;
     padding-top: 1%;
@@ -132,5 +136,6 @@ font-style: italic;
     background-color: #F2F1D3;
     color: #4a3f64;
 }
+
 
   
