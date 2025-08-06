@@ -43,6 +43,10 @@ body {
     border-radius: .25cm;
 }
 
+.navbar-toggler {
+    background-color: #FFBF61;
+}
+
 .navbar-toggler-icon {
     background-color: #FFBF61;
     border-radius: 15%;
