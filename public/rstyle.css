@@ -4,9 +4,17 @@ body {
     color:#4a3f64;
 }
 
+h1, .sh {
+    color: #8069b6;
+}
+
 .navbar {
     background-color: #4a3f64;
     border-radius: .25cm;
+}
+
+.navbar-toggler {
+    background-color: #FFBF61;
 }
 
 .navbar-toggler-icon {
