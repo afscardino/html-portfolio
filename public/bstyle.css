@@ -1,81 +1,43 @@
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: #fffaed;
-    color:#605678;
+    background-color: #fffaed; 
 }
 
-h1, .sh {
-    font-family: "Montserrat", sans-serif;
-    color: #9671ec;
-}
-
-h2 {
+h1 {
     color: #9671ec;
     font-family: "Montserrat", sans-serif;
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 44px;
+    font-weight: 700;
 }
 
 h3 {
     color: #9671ec;
     font-family: "Montserrat", sans-serif;
-    font-size: 32px;
-    font-weight: 500;
+    font-size: 36px;
+    font-weight: 400;
 }
 
-p {
-    color: #605678;
+img {
+    border-radius: 15%;
 }
 
 hr {
-    font-family: "Montserrat", sans-serif;
     border: dotted #605678 8px;
     border-bottom: none;
     width: 10%;
     margin: 25px auto;
 }
 
+p {
+    color: #605678;
+}
+
 footer {
-    font-family: "Montserrat", sans-serif;
     margin-top: 75px;
     padding-top: 50px;
     padding-bottom: 20px;
     color: #605678;
     background-color: #abdbc2
-}
-
-img {
-    max-width: 75%;
-    height: auto;
-    border-radius: 50%;
-}
-
-li {
-    color:#605678;
-}
-
-a {
-    color: #605678;
-    font-weight: 500;
-}
-
-a:hover {
-    color: #9671ec;
-    cursor: pointer;
-    font-weight: 600;
-}
-
-.list-group-item{
-    color:#605678;
-    border: 0px;
-    background-color: #fffaed;
-}
-
-.h2-bg {
-    color: #605678;
-    font-family: "Montserrat", sans-serif;
-    font-size: 40px;
-    font-weight: 600;
 }
 
 .navbar {
@@ -128,45 +90,19 @@ a:hover {
     font-weight: 600;
 }
 
-.blurb {
-    padding: 1%;
-    border-radius: .25cm;
-    color: #605678;
-    background-color: #abdbc2;
-}
-
-.blin {
-    color: #605678;
-}
-
-.blin:hover {
+.lead {
     color: #9671ec;
 }
 
-.sects {
-    padding-bottom: 1%;
-    border-radius: .25cm;
-    background-color: #abdbc2;
-}
-
-.accordion-button {
-    background-color: #abdbc2;
+a {
     color: #605678;
-    font-weight:450;
+    font-weight: bolder;
 }
 
-.accordion-body {
-    background-color: #fffaed;
-    color: #605678;
-    font-weight:400;
+a:hover {
+    color: #9671ec;
+    cursor: pointer;
 }
-
-.accordion-button:not(.collapsed) {
-    background-color: #abdbc2;
-    color: #605678;
-    box-shadow: 0 0 0.5rem rgba(96, 86, 120, 0.25);
-}
-
 
 .btn {
     margin-top: 15px;
@@ -183,8 +119,14 @@ a:hover {
 
 .btn:hover {
     background: #9671ec;
-    color:#abdbc2;
     cursor: pointer;
 }
 
-  
+.preview {
+  border-radius: 25%;
+  height: 100px;
+}
+
+.lead{
+    font-weight: 500;
+}
